@@ -52,6 +52,7 @@ export default function Header() {
                 fill
                 className="object-contain"
                 priority
+                sizes="256px"
               />
             </div>
           </Link>

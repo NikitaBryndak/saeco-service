@@ -75,6 +75,7 @@ export default function Services() {
                     alt={service.title}
                     fill
                     className="object-contain drop-shadow-2xl"
+                    sizes="96px"
                   />
                 </div>
 
