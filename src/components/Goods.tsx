@@ -7,7 +7,7 @@ const realServices = [
     id: 1,
     title: "Кавомашини Б/У",
     description: "Великий вибір якісних вживаних кавомашин за доступними цінами. Перевірені та готові до роботи.",
-    image: "/image/home-background.jpg", // Placeholder
+    image: "/image/machines.jpg", // Placeholder
     phone: "+380677566376",
     buttonText: "Перевірити в наявності",
     price: "від 4650 грн",
@@ -16,7 +16,7 @@ const realServices = [
     id: 2,
     title: "Кава та Чай Gemini",
     description: "Пропонуємо вам моносорта, купажі, дріпи та чай для використання вдома, в офісі, кав'ярні та ресторанах. ",
-    image: "/image/home-background.jpg", // Placeholder
+    image: "/image/gemini.jpeg", // Placeholder
     phone: "+380969962525",
     buttonText: "Замовити каву",
     price: "від 205 грн",
@@ -25,7 +25,7 @@ const realServices = [
     id: 3,
     title: "Чай Світ Чаю",
     description: "Пропонуємо 250+ видів чаю з усього світу. Замовлення від 300 грам - доставка безкоштовна.",
-    image: "/image/home-background.jpg",
+    image: "/image/tea.jpg",
     phone: "+380969962525",
     buttonText: "Замовити чай",
     price: "від 150 грн",
@@ -34,7 +34,7 @@ const realServices = [
     id: 4,
     title: "Засоби Догляду",
     description: "Необхідні засоби для чищення та догляду за кавовим обладнанням. Підтримуйте смак кави в ідеальному стані.",
-    image: "/image/home-background.jpg", // Placeholder
+    image: "/image/repairs.jpg", // Placeholder
     phone: "+380689070070",
     buttonText: "Замовити засоби",
     price: "від 160 грн",
