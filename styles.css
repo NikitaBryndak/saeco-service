@@ -187,7 +187,7 @@ main{
 
 div[class="home body-box"]{
     min-height: calc(100vh - 100px) !important;
-    background-image: url(image/machines.jpg);
+    background-image: url(image/machine.jpg);
     min-height: calc(100vh - 100px);
     background-size: cover;
     background-position: center;

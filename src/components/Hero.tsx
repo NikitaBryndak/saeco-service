@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image with Parallax-like effect */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/image/machines.jpg"
+          src="/image/machine.jpg"
           alt="Coffee Machine Background"
           fill
           className="object-cover opacity-70 scale-105 animate-pulse-slow"

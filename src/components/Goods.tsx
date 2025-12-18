@@ -7,7 +7,7 @@ const realServices = [
     id: 1,
     title: "Кавомашини Б/У",
     description: "Великий вибір якісних вживаних кавомашин за доступними цінами. Перевірені та готові до роботи.",
-    image: "/image/machines.jpg", // Placeholder
+    image: "/image/machine.jpg", // Placeholder
     phone: "+380677566376",
     buttonText: "Перевірити в наявності",
     price: "від 4650 грн",
@@ -16,7 +16,7 @@ const realServices = [
     id: 2,
     title: "Кава та Чай Gemini",
     description: "Пропонуємо вам моносорта, купажі, дріпи та чай для використання вдома, в офісі, кав'ярні та ресторанах. ",
-    image: "/image/gemini.jpeg", // Placeholder
+    image: "/image/geminis.jpg", // Placeholder
     phone: "+380969962525",
     buttonText: "Замовити каву",
     price: "від 205 грн",
