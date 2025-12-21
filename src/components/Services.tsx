@@ -52,7 +52,7 @@ export default function Services() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Наші <span className="text-secondary">Послуги</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <p className="text-gray-300 max-w-2xl mx-auto text-lg">
             Ми пропонуємо повний спектр послуг для вашого кавового обладнання.
             Від термінового ремонту до регулярного обслуговування.
           </p>
@@ -82,7 +82,7 @@ export default function Services() {
                 <h3 className="text-xl font-bold mb-2 text-white group-hover:text-secondary transition-colors">{service.title}</h3>
                 <p className="text-xs text-accent mb-4 font-bold uppercase tracking-widest">{service.subtitle}</p>
 
-                <p className="text-gray-300 text-sm mb-8 leading-relaxed">
+                <p className="text-gray-200 text-sm mb-8 leading-relaxed">
                   {service.description}
                 </p>
 

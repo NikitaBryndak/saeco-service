@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Давайте будемо на <span className="text-secondary">Зв&apos;язку</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <p className="text-gray-300 max-w-2xl mx-auto text-lg">
             Ми завжди раді допомогти вам з будь-якими питаннями щодо кавового обладнання та товару для нього.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Contact() {
               </div>
               <div className="space-y-3 pl-2 relative z-10">
                 <a href="tel:+380689070070" className="block text-2xl md:text-3xl text-gray-200 hover:text-white transition-colors font-bold tracking-tight">+ 38 068 90 700 70</a>
-                <a href="tel:+380969962525" className="block text-xl md:text-2xl text-gray-400 hover:text-white transition-colors font-medium tracking-wide">+ 38 096 99 625 25</a>
+                <a href="tel:+380969962525" className="block text-xl md:text-2xl text-gray-300 hover:text-white transition-colors font-medium tracking-wide">+ 38 096 99 625 25</a>
               </div>
             </div>
 
@@ -69,15 +69,15 @@ export default function Contact() {
                 </h3>
                 <div className="flex items-center gap-2 mt-2">
                   <Mail className="w-5 h-5 text-secondary" />
-                  <Link href="mailto:khmsaeco@gmail.com" className="text-gray-400 hover:text-accent transition-colors break-all text-lg font-medium">khmsaeco@gmail.com</Link>
+                  <Link href="mailto:khmsaeco@gmail.com" className="text-gray-300 hover:text-accent transition-colors break-all text-lg font-medium">khmsaeco@gmail.com</Link>
                 </div>
                 <div className="flex items-center gap-2 mt-2">
                   <Send className="w-5 h-5 text-white" />
-                  <Link href="https://t.me/saeco_khmel" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-accent transition-colors text-lg font-medium">@saeco_khmel</Link>
+                  <Link href="https://t.me/saeco_khmel" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-accent transition-colors text-lg font-medium">@saeco_khmel</Link>
                 </div>
                 <div className="flex items-center gap-2 mt-2">
                   <PhoneCall className="w-5 h-5 text-accent" />
-                  <Link href="viber://chat?number=+380969962525"  className="text-gray-400 hover:text-accent transition-colors text-lg font-medium">Viber</Link>
+                  <Link href="viber://chat?number=+380969962525"  className="text-gray-300 hover:text-accent transition-colors text-lg font-medium">Viber</Link>
                 </div>
               </div>
 
@@ -87,8 +87,8 @@ export default function Contact() {
                   Графік роботи
                 </h3>
                 <div className="space-y-2 text-sm">
-                  <p className="text-gray-400 flex justify-between"><span className="text-white font-medium">Пн-Пт:</span> 9:00 - 18:00</p>
-                  <p className="text-gray-400 flex justify-between"><span className="text-white font-medium">Сб-Нд:</span> За домовленістю</p>
+                  <p className="text-gray-300 flex justify-between"><span className="text-white font-medium">Пн-Пт:</span> 9:00 - 18:00</p>
+                  <p className="text-gray-300 flex justify-between"><span className="text-white font-medium">Сб-Нд:</span> За домовленістю</p>
                 </div>
               </div>
             </div>

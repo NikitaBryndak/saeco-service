@@ -47,7 +47,7 @@ export default function Goods() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Наш <span className="text-accent">Товар</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <p className="text-gray-300 max-w-2xl mx-auto text-lg">
             Ми пропонуємо широкий вибір кавомашин, кави, чаю та засобів догляду за кавовим обладнанням.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Goods() {
           {realServices.map((service) => (
             <div
               key={service.id}
-              className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
+              className="group relative min-h-[400px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
             >
               {/* Background Image */}
               <Image
@@ -71,24 +71,24 @@ export default function Goods() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-500"></div>
 
               {/* Content */}
-              <div className="absolute inset-0 p-8 flex flex-col justify-end items-start text-left">
+              <div className="relative z-10 h-full min-h-[400px] p-8 flex flex-col justify-end items-start text-left">
                 <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-accent transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-gray-300 text-lg mb-6 transform translate-y-4-0 transition-all duration-500 delay-100">
+                <p className="text-gray-100 text-lg mb-6 transform translate-y-4-0 transition-all duration-500 delay-100">
                   {service.description}
                 </p>
 
-                <div className="flex items-center gap-4 ">
-                  <div className="transform  transition-transform duration-500">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full">
+                  <div className="transform transition-transform duration-500 w-full sm:w-auto">
                       <a
                           href={`tel:${service.phone || "+380677566376"}`}
-                          className="inline-block px-8 py-3 bg-secondary text-white rounded-full font-bold uppercase tracking-wider hover:bg-accent transition-colors duration-300"
+                          className="inline-block w-full sm:w-auto text-center px-6 py-3 bg-secondary text-white rounded-full font-bold uppercase tracking-wider hover:bg-accent transition-colors duration-300 text-sm sm:text-base whitespace-nowrap"
                       >
                           {service.buttonText}
                       </a>
                   </div>
-                  <span className="text-white text-2xl font-bold">{service.price}</span>
+                  <span className="text-white text-2xl font-bold whitespace-nowrap">{service.price}</span>
                 </div>
               </div>
             </div>
