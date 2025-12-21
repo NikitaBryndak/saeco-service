@@ -46,8 +46,8 @@ export default function Goods() {
     <section id="real-services" className="py-24 bg-background relative overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Наш <span className="text-accent">Товар</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-foreground">Наш <span className="text-accent">Товар</span></h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Ми пропонуємо широкий вибір кавомашин, кави, чаю та засобів догляду за кавовим обладнанням.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function Goods() {
           {realServices.map((service) => (
             <div
               key={service.id}
-              className="group relative h-[400px] rounded-3xl overflow-hidden border border-white/10 shadow-2xl"
+              className="group relative h-[400px] rounded-3xl overflow-hidden border border-border shadow-2xl"
             >
               {/* Background Image */}
               <Image

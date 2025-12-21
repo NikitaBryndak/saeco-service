@@ -51,8 +51,8 @@ export default function Services() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Наші <span className="text-secondary">Послуги</span></h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-foreground">Наші <span className="text-secondary">Послуги</span></h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             Ми пропонуємо повний спектр послуг для вашого кавового обладнання.
             Від термінового ремонту до регулярного обслуговування.
           </p>
@@ -62,9 +62,9 @@ export default function Services() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group relative bg-white/5 border border-white/10 rounded-3xl p-8 hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 flex flex-col h-full overflow-hidden"
+              className="group relative bg-card border border-border rounded-3xl p-8 hover:bg-muted transition-all duration-500 hover:-translate-y-2 flex flex-col h-full overflow-hidden shadow-sm hover:shadow-md"
             >
-              <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-foreground/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
               <div className="absolute -inset-px bg-gradient-to-b from-secondary/20 to-accent/20 opacity-0 group-hover:opacity-100 rounded-3xl transition-opacity duration-500 pointer-events-none"></div>
 
               <div className="relative z-10 flex-1 flex flex-col items-center text-center">
@@ -74,23 +74,23 @@ export default function Services() {
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-contain drop-shadow-2xl"
+                    className="object-contain drop-shadow-2xl dark:invert-0 invert-0"
                     sizes="96px"
                   />
                 </div>
 
-                <h3 className="text-xl font-bold mb-2 text-white group-hover:text-secondary transition-colors">{service.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-secondary transition-colors">{service.title}</h3>
                 <p className="text-xs text-accent mb-4 font-bold uppercase tracking-widest">{service.subtitle}</p>
 
-                <p className="text-gray-300 text-sm mb-8 leading-relaxed">
+                <p className="text-muted-foreground text-sm mb-8 leading-relaxed">
                   {service.description}
                 </p>
 
-                <div className="mt-auto w-full pt-6 border-t border-white/5">
-                  <p className="text-3xl font-bold text-white mb-6 tracking-tight group-hover:text-secondary transition-colors">{service.price}</p>
+                <div className="mt-auto w-full pt-6 border-t border-border">
+                  <p className="text-3xl font-bold text-foreground mb-6 tracking-tight group-hover:text-secondary transition-colors">{service.price}</p>
                   <a
                     href="tel:+380677566376"
-                    className="block w-full py-4 px-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-accent hover:border-accent hover:shadow-lg hover:shadow-accent/20 transition-all duration-300 font-bold text-sm uppercase tracking-wider text-white"
+                    className="block w-full py-4 px-6 rounded-2xl bg-muted border border-border hover:bg-accent hover:border-accent hover:shadow-lg hover:shadow-accent/20 transition-all duration-300 font-bold text-sm uppercase tracking-wider text-foreground hover:text-white"
                   >
                     {service.buttonText}
                   </a>
