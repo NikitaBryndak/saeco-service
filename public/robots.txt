@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.remont-saeco.in.ua/sitemap.xml
+Sitemap: https://www.saeco-remont.com.ua/sitemap.xml
