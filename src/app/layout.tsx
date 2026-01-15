@@ -14,6 +14,28 @@ export const metadata: Metadata = {
   icons: {
     icon: "/image/website-icon.png",
   },
+  metadataBase: new URL('https://www.remont-saeco.in.ua'),
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  openGraph: {
+    title: "Saeco сервіс",
+    description: "Ремонт та обслуговування кавомашин",
+    url: 'https://www.remont-saeco.in.ua',
+    siteName: "Saeco сервіс",
+    locale: 'uk_UA',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Saeco сервіс",
+    description: "Ремонт та обслуговування кавомашин",
+  },
 };
 
 export default function RootLayout({
