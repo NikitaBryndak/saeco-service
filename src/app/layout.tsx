@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sofia_Sans } from "next/font/google";
+// @ts-expect-error error with module types
 import "./globals.css";
 
 const sofiaSans = Sofia_Sans({
@@ -9,8 +10,8 @@ const sofiaSans = Sofia_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Saeco сервіс",
-  description: "Ремонт та обслуговування кавомашин",
+  title: "Ремонт та обслуговування кавомашин Хмельницький | Saeco сервіс",
+  description: "Сервісний центр кавового обладнання Saeco, DeLonghi у Хмельницькому надає послуги з ремонту кавомашин в Хмельницькому, сервісу та оренди кавомашин",
   icons: {
     icon: "/image/website-icon.png",
   },
@@ -24,17 +25,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Saeco сервіс",
-    description: "Ремонт та обслуговування кавомашин",
+    title: "Ремонт та обслуговування кавомашин Хмельницький | Saeco сервіс",
+    description: "Сервісний центр кавового обладнання Saeco, DeLonghi у Хмельницькому надає послуги з ремонту кавомашин в Хмельницькому, сервісу та оренди кавомашин",
     url: 'https://www.remont-saeco.in.ua',
     siteName: "Saeco сервіс",
-    locale: 'uk_UA',
+    locale: 'uk-UA',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Saeco сервіс",
-    description: "Ремонт та обслуговування кавомашин",
+    title: "Ремонт та обслуговування кавомашин Хмельницький | Saeco сервіс",
+    description: "Сервісний центр кавового обладнання Saeco, DeLonghi у Хмельницькому надає послуги з ремонту кавомашин в Хмельницькому, сервісу та оренди кавомашин",
   },
 };
 
@@ -44,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ua">
+    <html lang="uk">
       <body
         className={`${sofiaSans.variable} antialiased`}
       >
